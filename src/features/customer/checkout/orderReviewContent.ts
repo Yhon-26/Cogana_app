@@ -1,0 +1,18 @@
+export const orderReviewContent = {
+  topBarTitle: 'Revisar pedido',
+  heading: 'Confirma los detalles',
+  products: 'PRODUCTOS',
+  delivery: 'ENTREGA',
+  deliveryMethod: 'Entrega a domicilio',
+  addressPending: 'Dirección por completar',
+  schedulePending: 'Horario por elegir',
+  subtotal: 'Subtotal',
+  deliveryFee: 'Envío',
+  feePending: 'Por calcular',
+  total: 'Total',
+  paymentAction: 'Elegir método de pago',
+  paymentPending: 'El mínimo corresponde solo a productos, sin incluir el envío.',
+  loadingLabel: 'Cargando resumen del pedido',
+  loadError: 'No pudimos cargar el resumen. Vuelve a abrir esta pantalla.',
+  retryAction: 'Reintentar',
+} as const;

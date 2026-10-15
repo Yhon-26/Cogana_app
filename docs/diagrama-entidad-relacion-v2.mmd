@@ -1,0 +1,48 @@
+erDiagram
+    ORGANIZATIONS ||--o{ STORES : posee
+    STORES ||--o{ STORE_MEMBERSHIPS : autoriza
+    PROFILES ||--o{ STORE_MEMBERSHIPS : participa
+    STORES ||--|| STORE_SETTINGS : configura
+    STORES ||--o{ STORE_BUSINESS_HOURS : programa
+    STORES ||--o{ STORE_SCHEDULE_EXCEPTIONS : modifica
+    STORES ||--|| STORE_OPERATIONAL_STATE : opera
+
+    STORES ||--o{ CATEGORIES : organiza
+    CATEGORIES ||--o{ PRODUCTS : agrupa
+    PRODUCTS ||--o{ PRODUCT_PRESENTATIONS : ofrece
+    PRODUCTS ||--o{ PRODUCT_IMAGES : muestra
+    PRODUCT_PRESENTATIONS ||--o{ PRODUCT_PRICE_HISTORY : registra
+
+    STORES ||--o{ SUPPLIERS : registra
+    PRODUCTS ||--o{ INVENTORY_LOTS : recibe
+    SUPPLIERS o|--o{ INVENTORY_LOTS : suministra
+    INVENTORY_LOTS ||--o{ INVENTORY_LOT_PACKAGES : contiene
+    PRODUCT_PRESENTATIONS ||--o{ INVENTORY_LOT_PACKAGES : empaqueta
+    INVENTORY_LOTS ||--o{ INVENTORY_MOVEMENTS : audita
+
+    STORES ||--o{ CUSTOMERS : atiende
+    CUSTOMERS ||--o{ CUSTOMER_ADDRESSES : guarda
+    CUSTOMERS ||--|| CUSTOMER_PREFERENCES : decide
+    STORES ||--o{ DELIVERY_ZONES : cubre
+
+    CUSTOMERS ||--o{ ORDERS : realiza
+    DELIVERY_ZONES o|--o{ ORDERS : tarifa
+    ORDERS ||--|{ ORDER_ITEMS : contiene
+    PRODUCTS ||--o{ ORDER_ITEMS : referencia
+    PRODUCT_PRESENTATIONS ||--o{ ORDER_ITEMS : cotiza
+    ORDERS ||--o{ ORDER_STATUS_HISTORY : registra
+    ORDER_ITEMS ||--o| INVENTORY_RESERVATIONS : reserva
+    INVENTORY_RESERVATIONS ||--|{ INVENTORY_RESERVATION_ALLOCATIONS : distribuye
+    INVENTORY_LOTS ||--o{ INVENTORY_RESERVATION_ALLOCATIONS : asigna
+    ORDER_ITEMS ||--o{ ORDER_SUBSTITUTIONS : propone
+
+    ORDERS ||--o{ PAYMENT_TRANSACTIONS : cobra
+    PAYMENT_TRANSACTIONS o|--o{ PAYMENT_TRANSACTIONS : revierte
+    ORDERS ||--o| DELIVERY_ASSIGNMENTS : entrega
+    DELIVERY_ASSIGNMENTS ||--o{ DELIVERY_EVENTS : registra
+
+    STORES ||--o{ PROMOTIONS : publica
+    PROMOTIONS ||--o{ PROMOTION_PRODUCTS : aplica
+    PRODUCTS ||--o{ PROMOTION_PRODUCTS : recibe
+    ORDERS ||--o{ ORDER_PROMOTIONS : descuenta
+    PROMOTIONS ||--o{ ORDER_PROMOTIONS : registra

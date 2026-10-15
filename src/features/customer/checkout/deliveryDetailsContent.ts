@@ -1,0 +1,20 @@
+// Pantalla 14: los datos son locales hasta conectar direcciones, cobertura y horarios reales.
+export const deliveryDetailsContent = {
+  topBarTitle: 'Entrega a domicilio',
+  heading: 'Datos de entrega',
+  districtLabel: 'DISTRITO',
+  districtPlaceholder: 'Ej. Santa Anita',
+  addressLabel: 'DIRECCIÓN',
+  addressPlaceholder: 'Calle, número y departamento',
+  referenceLabel: 'REFERENCIA (OPCIONAL)',
+  referencePlaceholder: 'Ej. Portón verde, frente al parque',
+  scheduleTitle: 'Horario',
+  scheduleAction: 'Consulta el horario de la tienda',
+  schedulePending: 'Las franjas de entrega aún no están publicadas.',
+  contactTitle: 'Contacto',
+  phoneLabel: 'CELULAR',
+  phonePlaceholder: '+51 999 999 999',
+  reviewAction: 'Revisar pedido',
+  reviewPending: 'Elige una zona y completa dirección y celular para revisar.',
+  reviewReady: 'Puedes revisar el borrador; todavía no se puede confirmar la compra.',
+} as const;

@@ -1,0 +1,4 @@
+node_modules
+.expo
+dist
+src/types/database.generated.ts

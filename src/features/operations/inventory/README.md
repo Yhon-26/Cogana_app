@@ -1,0 +1,3 @@
+# Inventario
+
+La pasada 3 implementa la lista 06 y las rutas de catálogo, movimiento, producto y precio. Ahora leen productos, presentaciones, lotes e historial de precios de Supabase con alcance por tienda owner/admin. No hay lotes reales todavía; la cifra de existencias sueltas no equivale a disponibilidad vendible. Movimientos y cambios de catálogo/precios permanecen inactivos hasta validar permiso, reservas y operación transaccional de servidor. El diseño original de la pasada se documenta en `docs/mobile/screens/operations-pass-3.md`; el estado de datos actual en `docs/mobile/screens/operations-pass-4.md`.

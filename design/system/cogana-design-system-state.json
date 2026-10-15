@@ -1,0 +1,1744 @@
+{
+  "runId": "cogana-ui-system-v1",
+  "figmaFileKey": "PMCmmZNLY9A8kqcG7IVsHA",
+  "phase": "phase7.5",
+  "step": "ui-ux-redesign-customer-35-high-fidelity-in-review",
+  "entities": {
+    "collections": {
+      "primitives": "VariableCollectionId:19:2",
+      "color": "VariableCollectionId:19:3",
+      "layout": "VariableCollectionId:19:4",
+      "typography": "VariableCollectionId:19:5"
+    },
+    "variables": {
+      "primitiveColors": 26,
+      "semanticColors": 39,
+      "layout": 29,
+      "typography": 26,
+      "total": 120
+    },
+    "pages": {
+      "logoSystem": "0:1",
+      "svgExports": "15:2",
+      "foundations": "25:2",
+      "foundationsOverview": "25:3",
+      "uiDirection": "104:2",
+      "uiDirectionDocumentation": "104:3",
+      "button": "31:2",
+      "buttonDocumentation": "31:3",
+      "iconButton": "38:2",
+      "iconButtonDocumentation": "38:3",
+      "searchInput": "46:2",
+      "searchInputDocumentation": "46:3",
+      "chipBadge": "53:8",
+      "chipBadgeDocumentation": "53:9",
+      "productCard": "67:2",
+      "productCardDocumentation": "67:3",
+      "quantityStepper": "79:2",
+      "quantityStepperDocumentation": "79:3",
+      "cartItem": "114:149",
+      "cartItemDocumentation": "114:150",
+      "cartSummary": "122:2",
+      "cartSummaryDocumentation": "122:3",
+      "deliveryMethodSelector": "130:2",
+      "deliveryMethodSelectorDocumentation": "130:3",
+      "addressSelector": "137:2",
+      "addressSelectorDocumentation": "137:3",
+      "deliveryZoneSummary": "147:2",
+      "deliveryZoneSummaryDocumentation": "147:3",
+      "paymentMethodSelector": "150:2",
+      "paymentMethodSelectorDocumentation": "150:3",
+      "paymentEvidence": "155:2",
+      "paymentEvidenceDocumentation": "155:3",
+      "requestModeSelector": "167:175",
+      "requestModeSelectorDocumentation": "167:209",
+      "substitutionCard": "168:374",
+      "substitutionCardDocumentation": "168:370",
+      "promotionBanner": "169:375",
+      "promotionBannerDocumentation": "169:413",
+      "orderStatusTimeline": "170:417",
+      "orderStatusTimelineDocumentation": "173:441",
+      "categoryCard": "177:571",
+      "categoryCardDocumentation": "177:607",
+      "productDetailHeader": "177:676",
+      "productDetailHeaderDocumentation": "177:759",
+      "orderSummaryCard": "177:764",
+      "orderSummaryCardDocumentation": "177:906",
+      "orderAdjustmentCard": "199:2",
+      "orderAdjustmentCardDocumentation": "202:8",
+      "orderItemResultCard": "213:2",
+      "orderItemResultCardDocumentation": "213:112",
+      "fulfillmentDetailsCard": "218:2",
+      "fulfillmentDetailsCardDocumentation": "218:3",
+      "paymentStatusCard": "223:2",
+      "paymentStatusCardDocumentation": "223:3",
+      "deliveryConfirmationCard": "230:2",
+      "deliveryConfirmationCardDocumentation": "230:3",
+      "pickupConfirmationCard": "237:289",
+      "pickupConfirmationCardDocumentation": "249:4",
+      "orderCancelledCard": "256:46",
+      "orderCancelledCardDocumentation": "257:744",
+      "orderTotalsCard": "260:43",
+      "orderTotalsCardDocumentation": "260:44",
+      "orderActions": "261:2",
+      "orderActionsDocumentation": "264:2",
+      "ratingReviewCard": "267:2",
+      "ratingReviewCardDocumentation": "268:25",
+      "bottomNavigation": "275:2",
+      "bottomNavigationDocumentation": "276:845",
+      "topAppBar": "279:2",
+      "topAppBarDocumentation": "281:24",
+      "bottomSheet": "282:2",
+      "bottomSheetDocumentation": "283:28",
+      "dialog": "285:2",
+      "dialogDocumentation": "285:760",
+      "toastSnackbar": "290:2",
+      "toastSnackbarDocumentation": "290:757",
+      "skeletonLoading": "297:2",
+      "skeletonLoadingDocumentation": "298:768",
+      "emptyState": "301:2",
+      "emptyStateDocumentation": "307:11",
+      "errorOffline": "317:2",
+      "errorOfflineDocumentation": "318:2",
+      "homeComposition": "332:2",
+      "categoryPage": "339:201",
+      "searchResults": "344:29",
+      "cartPage": "348:344",
+      "scheduleSlotPicker": "351:139",
+      "coupon": "353:14",
+      "checkoutReview": "355:22",
+      "loginOtp": "359:20",
+      "profile": "362:2",
+      "addressManagement": "366:96",
+      "paymentMethods": "368:36",
+      "preferences": "372:36",
+      "notifications": "377:2",
+      "accountDeletion": "379:2",
+      "ownerDashboard": "383:2",
+      "ownerOrderQueue": "387:2",
+      "ownerPrepDetail": "389:2",
+      "ownerInventory": "393:2",
+      "ownerCatalogPrices": "396:2",
+      "ownerStoreSettings": "399:2",
+      "ownerPayments": "399:41",
+      "ownerDeliveryAssignments": "399:80",
+      "ownerAudit": "399:119",
+      "ownerAppFlow": "414:2",
+      "customerPurchaseFlow": "429:2"
+    },
+    "styles": {
+      "text": 12,
+      "effects": 3
+    },
+    "guidance": {
+      "uiDirection": {
+        "pageId": "104:2",
+        "documentationId": "104:3",
+        "sectionCount": 5,
+        "fontFamilies": [
+          "Inter",
+          "Fraunces"
+        ],
+        "productCardAuditIssues": 0,
+        "validationIssues": 0
+      }
+    },
+    "components": {
+      "button": {
+        "componentSetId": "33:2",
+        "variantCount": 27,
+        "properties": {
+          "label": "Label#33:0",
+          "showIcon": "Show icon#33:28"
+        },
+        "validationIssues": 0
+      },
+      "iconButton": {
+        "componentSetId": "41:137",
+        "variantCount": 27,
+        "properties": {
+          "icon": "Icon#41:0",
+          "accessibilityLabel": "Accessibility label#41:28"
+        },
+        "privateIcons": {
+          "search": "40:2",
+          "cart": "40:6",
+          "heart": "40:11",
+          "close": "40:14",
+          "minus": "80:4",
+          "plus": "80:7"
+        },
+        "validationIssues": 0
+      },
+      "searchInput": {
+        "componentSetId": "48:164",
+        "variantCount": 10,
+        "properties": {
+          "label": "Label#49:0",
+          "searchText": "Text#49:11",
+          "inputText": "Input text#51:0",
+          "helper": "Helper#49:22",
+          "leadingIcon": "Leading icon#49:33"
+        },
+        "validationIssues": 0
+      },
+      "chip": {
+        "componentSetId": "58:47",
+        "variantCount": 18,
+        "properties": {
+          "label": "Label#58:0",
+          "showLeadingIcon": "Show leading icon#58:1",
+          "leadingIcon": "Leading icon#58:2",
+          "showClose": "Show close#58:3"
+        },
+        "validationIssues": 0
+      },
+      "badge": {
+        "componentSetId": "59:63",
+        "variantCount": 8,
+        "properties": {
+          "label": "Label#59:8"
+        },
+        "validationIssues": 0
+      },
+      "productCard": {
+        "componentSetId": "72:93",
+        "variantCount": 4,
+        "properties": {
+          "productName": "Product name#72:0",
+          "brand": "Brand#72:1",
+          "presentation": "Presentation#72:2",
+          "price": "Price#72:3",
+          "originalPrice": "Original price#72:4",
+          "accessibilityLabel": "Accessibility label#72:5",
+          "showBadge": "Show badge#72:6",
+          "showFavorite": "Show favorite#72:7",
+          "showOriginalPrice": "Show original price#72:8",
+          "productImage": "Product image#72:9"
+        },
+        "privateProductMedia": {
+          "rice": "68:2",
+          "oil": "68:18",
+          "milk": "68:26"
+        },
+        "dependencies": {
+          "button": "33:2",
+          "iconButton": "41:137",
+          "badge": "59:63"
+        },
+        "uiDirectionAudit": {
+          "mediaRatio": 0.5365853658536586,
+          "priceHeight": 28,
+          "addButtonWidth": 294,
+          "addButtonHeight": 44,
+          "issues": 0
+        },
+        "validationIssues": 0
+      },
+      "quantityStepper": {
+        "componentSetId": "82:103",
+        "variantCount": 8,
+        "properties": {
+          "quantity": "Quantity#82:0"
+        },
+        "privateIcons": {
+          "minus": "80:4",
+          "plus": "80:7"
+        },
+        "dependencies": {
+          "iconButton": "41:137"
+        },
+        "validationIssues": 0
+      },
+      "cartItem": {
+        "componentSetId": "116:474",
+        "variantCount": 3,
+        "properties": {
+          "productName": "Product name#117:0",
+          "presentation": "Presentation#117:4",
+          "price": "Price#117:8",
+          "originalPrice": "Original price#117:12",
+          "subtotal": "Subtotal#117:16",
+          "stockMessage": "Stock message#117:20",
+          "accessibilityLabel": "Accessibility label#117:24",
+          "showOriginalPrice": "Show original price#117:28",
+          "productMedia": "Product media#117:32"
+        },
+        "dependencies": {
+          "quantityStepper": "82:103",
+          "button": "33:2",
+          "badge": "59:63",
+          "rice": "68:2",
+          "oil": "68:18",
+          "milk": "68:26"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 248
+        },
+        "validationIssues": 0
+      },
+      "cartSummary": {
+        "componentSetId": "122:467",
+        "variantCount": 2,
+        "properties": {
+          "subtotal": "Subtotal#122:0",
+          "discount": "Discount#122:3",
+          "delivery": "Delivery#122:6",
+          "total": "Total#122:9",
+          "helperMessage": "Helper message#122:12",
+          "accessibilityLabel": "Accessibility label#122:15",
+          "showDiscount": "Show discount#122:18"
+        },
+        "dependencies": {
+          "button": "33:2"
+        },
+        "dimensions": {
+          "ready": {
+            "width": 360,
+            "height": 282
+          },
+          "blocked": {
+            "width": 360,
+            "height": 316
+          }
+        },
+        "validationIssues": 0
+      },
+      "deliveryMethodSelector": {
+        "componentSetId": "131:58",
+        "variantCount": 4,
+        "properties": {
+          "label": "Label#131:0",
+          "pickupDetail": "Pickup detail#131:5",
+          "deliveryDetail": "Delivery detail#131:10",
+          "accessibilityLabel": "Accessibility label#131:15"
+        },
+        "variants": [
+          "Pickup selected",
+          "Delivery selected",
+          "Pickup only",
+          "Delivery only"
+        ],
+        "dimensions": {
+          "width": 360,
+          "height": 196,
+          "optionHeight": 76
+        },
+        "validationIssues": 0
+      },
+      "addressSelector": {
+        "componentSetId": "140:41",
+        "variantCount": 3,
+        "properties": {
+          "sectionLabel": "Section label#140:0",
+          "addressLabel": "Address label#140:4",
+          "addressLine": "Address line#140:8",
+          "district": "District#140:12",
+          "reference": "Reference#140:16",
+          "emptyMessage": "Empty message#140:20",
+          "helperMessage": "Helper message#140:24",
+          "accessibilityLabel": "Accessibility label#140:28",
+          "showDefault": "Show default#140:32",
+          "showReference": "Show reference#140:36"
+        },
+        "dependencies": {
+          "button": "33:2",
+          "badge": "59:63"
+        },
+        "dimensions": {
+          "selected": {
+            "width": 360,
+            "height": 222
+          },
+          "empty": {
+            "width": 360,
+            "height": 174
+          },
+          "outOfCoverage": {
+            "width": 360,
+            "height": 298
+          },
+          "actionHeight": 44
+        },
+        "validationIssues": 0
+      },
+      "deliveryZoneSummary": {
+        "componentSetId": "148:20",
+        "variantCount": 2,
+        "properties": {
+          "zoneName": "Zone name#148:0",
+          "deliveryFee": "Delivery fee#148:3",
+          "eta": "ETA#148:6",
+          "minimumOrder": "Minimum order#148:9",
+          "restriction": "Restriction#148:12",
+          "minimumWarning": "Minimum warning#148:15",
+          "accessibilityLabel": "Accessibility label#148:18",
+          "showRestriction": "Show restriction#148:21"
+        },
+        "dimensions": {
+          "available": { "width": 360, "height": 118 },
+          "belowMinimum": { "width": 360, "height": 146 }
+        },
+        "validationIssues": 0
+      },
+      "paymentMethodSelector": {
+        "componentSetId": "151:86",
+        "variantCount": 5,
+        "properties": {
+          "label": "Label#152:0",
+          "yapeDetail": "Yape detail#152:6",
+          "plinDetail": "Plin detail#152:12",
+          "cashDetail": "Cash detail#152:18",
+          "accessibilityLabel": "Accessibility label#152:24"
+        },
+        "variants": [
+          "Pickup Yape",
+          "Pickup Plin",
+          "Pickup Cash",
+          "Delivery Yape",
+          "Delivery Plin"
+        ],
+        "dimensions": {
+          "width": 360,
+          "height": 272,
+          "optionHeight": 72
+        },
+        "validationIssues": 0
+      },
+      "paymentEvidence": {
+        "componentSetId": "158:26",
+        "variantCount": 4,
+        "properties": {
+          "label": "Label#158:0",
+          "filename": "Filename#158:5",
+          "errorReason": "Error reason#158:10",
+          "accessibilityLabel": "Accessibility label#158:15"
+        },
+        "variants": ["Empty", "Uploading", "Attached", "Error"],
+        "dimensions": {
+          "width": 360,
+          "height": 165,
+          "targetHeight": 112
+        },
+        "validationIssues": 0
+      },
+      "requestModeSelector": {
+        "componentSetId": "167:208",
+        "variantCount": 3,
+        "variants": ["Quantity selected", "Money selected", "Presentation selected"],
+        "properties": {
+          "label": "Label#167:2",
+          "helper": "Helper#167:6",
+          "accessibilityLabel": "Accessibility label#167:10",
+          "showQuantity": "Show quantity#167:14",
+          "showMoney": "Show money#167:18",
+          "showPresentation": "Show presentation#167:22"
+        },
+        "supabase": {
+          "presentations": "product_presentations.allows_quantity_input / allows_money_input / price_mode / kind",
+          "orders": "order_items.request_mode"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 98,
+          "segmentHeight": 48
+        },
+        "validationIssues": 0
+      },
+      "substitutionCard": {
+        "componentSetId": "168:369",
+        "variantCount": 4,
+        "variants": ["Pending", "Accepted", "Rejected", "Expired"],
+        "properties": {
+          "originalItem": "Original item#168:26",
+          "productName": "Product name#168:31",
+          "presentation": "Presentation#168:36",
+          "priceDifference": "Price difference#168:41",
+          "acceptedNote": "Accepted note#183:0",
+          "rejectedNote": "Rejected note#183:5",
+          "expiredNote": "Expired note#183:10",
+          "accessibilityLabel": "Accessibility label#168:51"
+        },
+        "dependencies": {
+          "button": "33:2",
+          "badge": "59:63",
+          "media": "68:2"
+        },
+        "supabase": {
+          "table": "order_substitutions",
+          "status": "pending | auto_accepted | accepted | rejected | expired",
+          "difference": "price_difference_cents"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 254,
+          "mediaHeight": 88,
+          "actionHeight": 48
+        },
+        "validationIssues": 0
+      },
+      "promotionBanner": {
+        "componentSetId": "169:412",
+        "variantCount": 5,
+        "variants": ["Percentage", "Fixed amount", "Fixed price", "Quantity price", "Free delivery"],
+        "properties": {
+          "title": "Title#169:56",
+          "description": "Description#169:62",
+          "condition": "Condition#169:68",
+          "accessibilityLabel": "Accessibility label#169:74",
+          "showCondition": "Show condition#169:80",
+          "percentageValue": "Percentage value#184:0",
+          "fixedAmountValue": "Fixed amount value#184:6",
+          "fixedPriceValue": "Fixed price value#184:12",
+          "quantityPriceValue": "Quantity price value#184:18",
+          "freeDeliveryValue": "Free delivery value#184:24"
+        },
+        "supabase": {
+          "table": "promotions",
+          "type": "promotion_type",
+          "value": "value",
+          "condition": "minimum_order_cents / minimum_quantity / coupon_code"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 96,
+          "pillHeight": 40
+        },
+        "validationIssues": 0
+      },
+      "orderStatusTimeline": {
+        "componentSetId": "173:440",
+        "variantCount": 4,
+        "variants": ["Completed", "Current", "Upcoming", "Cancelled"],
+        "properties": {
+          "title": "Title#173:86",
+          "meta": "Meta#173:90",
+          "showConnector": "Show connector#173:94",
+          "accessibilityLabel": "Accessibility label#173:98",
+          "cancelledTitle": "Cancelled title#184:34",
+          "cancelledMeta": "Cancelled meta#184:39"
+        },
+        "supabase": {
+          "orders": "orders.status",
+          "history": "order_status_history"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 64,
+          "dot": 20,
+          "connectorWidth": 2
+        },
+        "validationIssues": 0
+      },
+      "categoryCard": {
+        "componentSetId": "177:606",
+        "variantCount": 2,
+        "variants": ["Default", "Selected"],
+        "properties": {
+          "categoryName": "Category name#177:0",
+          "count": "Count#177:3",
+          "showCount": "Show count#177:6",
+          "categoryIcon": "Category icon#177:9",
+          "accessibilityLabel": "Accessibility label#177:12"
+        },
+        "privateIcons": {
+          "categories": "177:583",
+          "beverages": "177:584",
+          "pantry": "177:585"
+        },
+        "supabase": {
+          "categories": "categories.name / slug / sort_order / is_active",
+          "count": "products grouped by category_id where is_active"
+        },
+        "dimensions": {
+          "width": 104,
+          "media": 96,
+          "icon": 24,
+          "railGap": 12
+        },
+        "validationIssues": 0
+      },
+      "productDetailHeader": {
+        "componentSetId": "185:36",
+        "variantCount": 2,
+        "variants": ["Available", "Unavailable"],
+        "properties": {
+          "productName": "Product name#185:0",
+          "brand": "Brand#185:1",
+          "presentation": "Presentation#185:2",
+          "price": "Price#185:3",
+          "originalPrice": "Original price#185:4",
+          "showOriginalPrice": "Show original price#185:5",
+          "stockMessage": "Stock message#185:6",
+          "showBadge": "Show badge#185:7",
+          "badgeLabel": "Badge label#185:8",
+          "showFavorite": "Show favorite#185:9",
+          "showGalleryDots": "Show gallery dots#185:10",
+          "productImage": "Product image#185:11",
+          "accessibilityLabel": "Accessibility label#185:12"
+        },
+        "privateMedia": {
+          "rice": "68:2",
+          "oil": "68:18",
+          "milk": "68:26"
+        },
+        "privateIcons": {
+          "heart": "40:11"
+        },
+        "supabase": {
+          "products": "products.name / brand / category_id",
+          "presentations": "product_presentations.name / kind / price_cents / minimum_quantity / is_active",
+          "images": "product_images.storage_path / sort_order / alt_text",
+          "promotions": "promotions / promotion_products"
+        },
+        "dimensions": {
+          "width": 360,
+          "media": 360,
+          "image": 300,
+          "favorite": 44,
+          "badgeHeight": 24,
+          "height": 602
+        },
+        "validationIssues": 0
+      },
+      "orderSummaryCard": {
+        "componentSetId": "177:905",
+        "variantCount": 3,
+        "variants": ["In progress", "Completed", "Cancelled"],
+        "properties": {
+          "orderNumber": "Order number#177:54",
+          "meta": "Meta#177:58",
+          "itemCount": "Item count#177:62",
+          "total": "Total#177:66",
+          "extraCount": "Extra count#177:70",
+          "showExtra": "Show extra#177:74",
+          "thumbnail1": "Thumbnail 1#177:78",
+          "thumbnail2": "Thumbnail 2#177:82",
+          "thumbnail3": "Thumbnail 3#177:86",
+          "accessibilityLabel": "Accessibility label#177:90"
+        },
+        "dependencies": {
+          "badge": "59:63",
+          "productMedia": { "rice": "68:2", "oil": "68:18", "milk": "68:26" }
+        },
+        "supabase": {
+          "orders": "orders.order_number / status / fulfillment_type / created_at / estimated_total_cents / final_total_cents",
+          "items": "order_items.product_name_snapshot / estimated_quantity",
+          "images": "product_images (first image per product)"
+        },
+        "dimensions": {
+          "width": 360,
+          "thumbnail": 44,
+          "badgeHeight": 24,
+          "padding": 16
+        },
+        "validationIssues": 0
+      },
+      "orderAdjustmentCard": {
+        "componentSetId": "200:50",
+        "variantCount": 3,
+        "variants": ["Additional payment", "Refund pending", "Resolved"],
+        "properties": {
+          "estimatedTotal": "Estimated total#201:0",
+          "differenceAmount": "Difference amount#201:4",
+          "showReviewAction": "Show review action#201:8",
+          "additionalFinalTotal": "Additional final total#201:12",
+          "additionalReason": "Additional reason#201:16",
+          "refundFinalTotal": "Refund final total#201:20",
+          "refundReason": "Refund reason#201:24",
+          "resolvedFinalTotal": "Resolved final total#201:28",
+          "resolvedReason": "Resolved reason#201:32",
+          "additionalNote": "Additional note#201:36",
+          "refundNote": "Refund note#201:40",
+          "resolvedNote": "Resolved note#201:44",
+          "resolvedDifferenceLabel": "Resolved difference label#205:0",
+          "additionalAccessibilityLabel": "Additional payment accessibility label#201:48",
+          "refundAccessibilityLabel": "Refund pending accessibility label#201:52",
+          "resolvedAccessibilityLabel": "Resolved accessibility label#201:56"
+        },
+        "dependencies": {
+          "button": "33:2",
+          "badge": "59:63"
+        },
+        "supabase": {
+          "orders": "orders.estimated_total_cents / final_total_cents / status",
+          "payments": "payment_transactions.transaction_type / status / amount_cents"
+        },
+        "dimensions": {
+          "width": 360,
+          "actionHeight": 48,
+          "heightWithAction": 296,
+          "heightWithoutAction": 236
+        },
+        "validationIssues": 0
+      },
+      "orderItemResultCard": {
+        "componentSetId": "213:111",
+        "variantCount": 3,
+        "variants": ["Estimated", "Prepared", "Not prepared"],
+        "properties": {
+          "productName": "Product name#215:0",
+          "presentation": "Presentation#215:4",
+          "estimatedQuantity": "Estimated quantity#215:8",
+          "estimatedAmount": "Estimated amount#215:12",
+          "preparedQuantity": "Prepared quantity#215:16",
+          "notPreparedQuantity": "Not prepared quantity#215:20",
+          "preparedFinalAmount": "Prepared final amount#215:24",
+          "notPreparedFinalAmount": "Not prepared final amount#215:28",
+          "estimatedNote": "Estimated note#215:32",
+          "preparedNote": "Prepared note#215:36",
+          "notPreparedNote": "Not prepared note#215:40",
+          "estimatedAccessibilityLabel": "Estimated accessibility label#215:44",
+          "preparedAccessibilityLabel": "Prepared accessibility label#215:48",
+          "notPreparedAccessibilityLabel": "Not prepared accessibility label#215:52"
+        },
+        "dependencies": {
+          "productMedia": "68:2",
+          "badge": "59:63"
+        },
+        "supabase": {
+          "items": "order_items.product_name_snapshot / presentation_name_snapshot / base_unit_snapshot / estimated_quantity / prepared_quantity / estimated_line_cents / estimated_discount_cents / final_line_cents / final_discount_cents"
+        },
+        "dimensions": {
+          "width": 360,
+          "estimatedHeight": 194,
+          "finalHeight": 250
+        },
+        "validationIssues": 0
+      },
+      "fulfillmentDetailsCard": {
+        "componentSetId": "219:24",
+        "variantCount": 2,
+        "variants": ["Pickup", "Delivery"],
+        "properties": {
+          "pickupLocationName": "Pickup Location name#219:0",
+          "pickupLocationAddress": "Pickup Location address#219:3",
+          "pickupTimeLabel": "Pickup Time label#219:6",
+          "pickupTimeValue": "Pickup Time value#219:9",
+          "pickupTimeNote": "Pickup Time note#219:12",
+          "pickupAccessibilityLabel": "Pickup Accessibility label#219:15",
+          "deliveryLocationName": "Delivery Location name#219:18",
+          "deliveryLocationAddress": "Delivery Location address#219:21",
+          "deliveryTimeLabel": "Delivery Time label#219:24",
+          "deliveryTimeValue": "Delivery Time value#219:27",
+          "deliveryTimeNote": "Delivery Time note#219:30",
+          "deliveryAccessibilityLabel": "Delivery Accessibility label#219:33"
+        },
+        "supabase": {
+          "orders": "orders.fulfillment_type / delivery_address / scheduled_for / estimated_ready_at",
+          "stores": "stores.name / address / timezone"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 248
+        },
+        "validationIssues": 0
+      },
+      "paymentStatusCard": {
+        "componentSetId": "226:11",
+        "variantCount": 9,
+        "variants": ["Pending", "Requires action", "Processing", "Paid", "Partially refunded", "Refunded", "Failed", "Expired", "Cancelled"],
+        "properties": {
+          "paymentMethod": "Payment method#226:0",
+          "pendingNote": "Pending note#226:10",
+          "pendingAccessibilityLabel": "Pending accessibility label#226:20",
+          "requiresActionNote": "Requires action note#226:30",
+          "requiresActionAccessibilityLabel": "Requires action accessibility label#226:40",
+          "processingNote": "Processing note#226:50",
+          "processingAccessibilityLabel": "Processing accessibility label#226:60",
+          "paidNote": "Paid note#226:70",
+          "paidAccessibilityLabel": "Paid accessibility label#226:80",
+          "partiallyRefundedNote": "Partially refunded note#226:90",
+          "partiallyRefundedAccessibilityLabel": "Partially refunded accessibility label#226:100",
+          "refundedNote": "Refunded note#226:110",
+          "refundedAccessibilityLabel": "Refunded accessibility label#226:120",
+          "failedNote": "Failed note#226:130",
+          "failedAccessibilityLabel": "Failed accessibility label#226:140",
+          "expiredNote": "Expired note#226:150",
+          "expiredAccessibilityLabel": "Expired accessibility label#226:160",
+          "cancelledNote": "Cancelled note#226:170",
+          "cancelledAccessibilityLabel": "Cancelled accessibility label#226:180"
+        },
+        "dependencies": {
+          "badge": "59:63"
+        },
+        "supabase": {
+          "orders": "orders.payment_status / payment_method",
+          "payments": "payment_transactions.transaction_type / status"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 120
+        },
+        "validationIssues": 0
+      },
+      "deliveryConfirmationCard": {
+        "componentSetId": "230:774",
+        "variantCount": 2,
+        "variants": ["Code", "Evidence"],
+        "properties": {
+          "deliveredAt": "Delivered at#231:0",
+          "recipientName": "Recipient name#231:3",
+          "showRecipient": "Show recipient#231:6",
+          "codeNote": "Code note#231:9",
+          "codeAccessibilityLabel": "Code accessibility label#231:12",
+          "evidenceNote": "Evidence note#231:15",
+          "evidenceAccessibilityLabel": "Evidence accessibility label#231:18"
+        },
+        "dependencies": {
+          "badge": "59:63"
+        },
+        "supabase": {
+          "orders": "orders.status",
+          "assignments": "delivery_assignments.status / delivered_at / recipient_name / evidence_storage_path",
+          "events": "delivery_events.note"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 176
+        },
+        "validationIssues": 0,
+        "securityFollowUp": "Restrict customer-visible delivery_assignments fields; current table SELECT exposes confirmation_code_hash and evidence_storage_path on authorized rows."
+      },
+      "pickupConfirmationCard": {
+        "componentSetId": "237:289",
+        "documentationFrameId": "249:4",
+        "variantCount": 2,
+        "variants": ["Confirmed", "Cash"],
+        "properties": {
+          "payment": "Payment (Confirmed | Cash)"
+        },
+        "editableTextLayers": [
+          "Title",
+          "Pickup time",
+          "Verification",
+          "Payment",
+          "Confirmation note",
+          "Accessibility label"
+        ],
+        "dependencies": {
+          "badge": "59:63"
+        },
+        "supabase": {
+          "orders": "orders.fulfillment_type / status / payment_method / payment_status / completed_at",
+          "history": "order_status_history.reason_code = pickup_code_verified",
+          "payments": "payment_transactions.status for the cash completion"
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 176
+        },
+        "validationIssues": 0,
+        "securityFollowUp": "Customer-facing orders projections must exclude pickup_confirmation_code_hash; never render the raw code or its hash."
+      },
+      "orderCancelledCard": {
+        "componentSetId": "256:46",
+        "documentationFrameId": "257:744",
+        "variantCount": 4,
+        "variants": ["No refund", "Refund pending", "Partially refunded", "Refunded"],
+        "dependencies": {
+          "badge": "59:63"
+        },
+        "supabase": {
+          "orders": "orders.status = cancelled / cancellation_reason_code / cancelled_at / payment_status",
+          "history": "order_status_history.to_status = cancelled; do not expose note",
+          "payments": "payment_transactions.transaction_type = refund / status"
+        },
+        "dimensions": {
+          "width": 360,
+          "maxHeight": 200
+        },
+        "validationIssues": 0,
+        "securityFollowUp": "Map cancellation_reason_code to safe customer copy; never expose order_status_history.note, payment IDs, provider references, or staff data.",
+        "productFollowUp": "Cancellation does not automatically create a refund in the current backend; this card communicates only confirmed refund state."
+      },
+      "orderTotalsCard": {
+        "componentSetId": "260:43",
+        "documentationFrameId": "260:44",
+        "variantCount": 2,
+        "variants": ["Estimated", "Final"],
+        "supabase": {
+          "estimated": "orders.estimated_subtotal_cents / estimated_discount_cents / delivery_fee_cents / delivery_discount_cents / estimated_total_cents",
+          "final": "orders.final_subtotal_cents / final_discount_cents / final_total_cents; only when all final values exist"
+        },
+        "dimensions": {"width": 360, "height": 276},
+        "validationIssues": 0,
+        "productFollowUp": "Do not derive charged or refunded net amounts in the client; use a server-side payment aggregation before adding monetary payment summary fields."
+      },
+      "orderActions": {
+        "componentSetId": "261:30",
+        "documentationFrameId": "264:2",
+        "variantCount": 3,
+        "variants": ["In progress", "Completed", "Cancelled"],
+        "actions": {
+          "inProgress": ["Help"],
+          "completed": ["Reorder", "Rate", "Help"],
+          "cancelled": ["Reorder", "Help"]
+        },
+        "supabase": {
+          "orders": "orders.status",
+          "reorder": "must start a new cart using current catalog and prices",
+          "rating": "requires a future reviews domain",
+          "help": "approved support handoff only"
+        },
+        "dimensions": {
+          "width": 360,
+          "actionHeight": 44,
+          "inProgressHeight": 134,
+          "completedHeight": 238,
+          "cancelledHeight": 186
+        },
+        "validationIssues": 0,
+        "securityFollowUp": "Customer cancellation is intentionally omitted: current order transition authorization is owner/admin only. Add it only with an authorized, idempotent customer operation and explicit policy."
+      },
+      "ratingReviewCard": {
+        "componentSetId": "268:24",
+        "documentationFrameId": "268:25",
+        "variantCount": 3,
+        "variants": ["Prompt", "Form", "Submitted"],
+        "properties": {
+          "prompt": ["Title", "Message", "Action label", "Accessibility label"],
+          "form": ["Title", "Message", "Score", "Action label", "Accessibility label"],
+          "submitted": ["Title", "Message", "Score", "Accessibility label"]
+        },
+        "supabase": {
+          "eligibility": "orders.status = completed",
+          "reviews": "requires a future dedicated reviews domain and server-side idempotent write"
+        },
+        "dimensions": {
+          "width": 360,
+          "promptHeight": 126,
+          "formHeight": 154,
+          "submittedHeight": 102,
+          "actionHeight": 44
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Do not show Submitted or persist a rating until the future reviews service confirms an authorized write."
+      },
+      "bottomNavigation": {
+        "componentSetId": "276:102",
+        "documentationFrameId": "276:845",
+        "variantCount": 4,
+        "variants": ["Inicio", "Categorías", "Carrito", "Cuenta"],
+        "destinations": ["Inicio", "Categorías", "Carrito", "Cuenta"],
+        "properties": {
+          "accessibilityLabels": ["Inicio", "Categorías", "Carrito", "Cuenta"]
+        },
+        "dimensions": {
+          "width": 360,
+          "height": 80,
+          "destinationTargetWidth": 76,
+          "destinationTargetHeight": 56
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Navigation only: Carrito opens the cart surface and must not trigger checkout, payment, cancellation, or an order transition."
+      },
+      "topAppBar": {
+        "componentSetId": "281:23",
+        "documentationFrameId": "281:24",
+        "variantCount": 2,
+        "variants": ["Home", "Standard"],
+        "dependencies": {
+          "searchInput": "48:164",
+          "iconButtonGuidance": "41:137"
+        },
+        "properties": {
+          "home": ["Brand", "Context", "Accessibility label"],
+          "standard": ["Title", "Accessibility label"]
+        },
+        "dimensions": {
+          "width": 360,
+          "homeHeight": 80,
+          "standardHeight": 64,
+          "actionSize": 44
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Use only safe context; Cart opens its screen and must not execute checkout, payment, cancellation, inventory updates, or order transitions."
+      },
+      "bottomSheet": {
+        "componentSetId": "283:27",
+        "documentationFrameId": "283:28",
+        "variantCount": 3,
+        "variants": ["Informative", "Action", "Selection"],
+        "dimensions": {
+          "width": 360,
+          "informativeHeight": 134,
+          "actionHeight": 186,
+          "selectionHeight": 186,
+          "controlHeight": 44
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Bottom Sheet is an interface container only; the host flow must separately authorize any checkout, payment, cancellation, inventory, or order-state operation."
+      },
+      "dialog": {
+        "componentSetId": "285:17",
+        "documentationFrameId": "285:760",
+        "variantCount": 2,
+        "variants": ["Informative", "Choice"],
+        "dimensions": {
+          "width": 328,
+          "informativeHeight": 126,
+          "choiceHeight": 178,
+          "controlHeight": 44
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Dialog is interface-only; the host flow must separately authorize any payment, checkout, cancellation, or order-state operation."
+      },
+      "toastSnackbar": {
+        "componentSetId": "290:14",
+        "documentationFrameId": "290:757",
+        "variantCount": 3,
+        "variants": ["Informative", "Success", "Error"],
+        "dimensions": {"width": 328, "height": 64, "actionHeight": 44},
+        "validationIssues": 0,
+        "productFollowUp": "Toast is temporary interface feedback only. Do not report or retry payment, refund, order, or delivery operations without a confirmed server state."
+      },
+      "skeletonLoading": {
+        "componentSetId": "298:25",
+        "documentationFrameId": "298:768",
+        "variantCount": 3,
+        "variants": ["Text", "Product", "List Item"],
+        "properties": {
+          "accessibilityLabels": ["Text", "Product", "List Item"]
+        },
+        "dimensions": {
+          "text": {"width": 360, "height": 112},
+          "product": {"width": 360, "height": 244},
+          "listItem": {"width": 360, "height": 96}
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Static by default for reduced motion; any application shimmer must respect system motion preferences. Skeleton content is not confirmed catalog or transaction data."
+      },
+      "emptyState": {
+        "componentSetId": "304:42",
+        "documentationFrameId": "307:11",
+        "variantCount": 3,
+        "variants": ["Context=Cart", "Context=Search", "Context=Orders"],
+        "variantIds": {"cart": "304:2", "search": "304:17", "orders": "304:29"},
+        "properties": {
+          "context": "Context",
+          "copy": "Fixed per context variant; no shared text properties"
+        },
+        "nodeIds": {
+          "cart": {
+            "illustration": ["304:3", "304:4", "304:5", "304:6", "304:7", "304:8"],
+            "text": ["304:9", "304:10", "304:11"],
+            "buttonInstance": ["304:13", "I304:13;32:3", "I304:13;32:4", "I304:13;32:5"]
+          },
+          "search": {
+            "illustration": ["304:18", "304:19", "304:20", "304:21"],
+            "text": ["304:22", "304:23", "304:24"],
+            "buttonInstance": ["304:25", "I304:25;32:3", "I304:25;32:4", "I304:25;32:5"]
+          },
+          "orders": {
+            "illustration": ["304:30", "304:31", "304:32", "304:33", "304:34"],
+            "text": ["304:35", "304:36", "304:37"],
+            "buttonInstance": ["304:38", "I304:38;32:3", "I304:38;32:4", "I304:38;32:5"]
+          },
+          "documentation": ["307:11", "307:12", "307:13", "307:14", "307:15", "307:16", "307:17", "307:18", "307:19", "307:20", "307:21", "307:22"]
+        },
+        "dependencies": {
+          "button": "33:2",
+          "buttonVariant": "Size=Small, Style=Primary, State=Default#32:2"
+        },
+        "content": {
+          "cart": {"title": "Tu carrito está vacío", "action": "Explorar productos"},
+          "search": {"title": "Sin resultados", "action": "Ver categorías"},
+          "orders": {"title": "Aún no tienes pedidos", "action": "Explorar productos"}
+        },
+        "accessibility": {
+          "hiddenGuidanceLayerPerVariant": true,
+          "nativeImplementationRequired": true
+        },
+        "dimensions": {
+          "variant": {"width": 360, "height": 320},
+          "action": {"width": 328, "height": 44},
+          "documentation": {"width": 500, "height": 481}
+        },
+        "validationIssues": 0,
+        "productFollowUp": "Render only after the relevant cart, order-list, or search request succeeds and confirms zero visible results. Do not reuse for loading, error, offline, or incomplete data; actions are navigation only."
+      },
+      "errorOffline": {
+        "componentSetId": "322:6",
+        "documentationFrameId": "318:2",
+        "documentationNodeIds": ["318:3", "318:4", "318:5", "318:6", "318:7", "318:8", "318:9", "318:10", "318:11", "318:12", "318:13", "318:14", "318:15", "318:16"],
+        "variantCount": 2,
+        "variants": ["Type=Error", "Type=Offline"],
+        "variantIds": {"error": "320:2", "offline": "320:12"},
+        "createdNodeIds": ["320:3", "320:4", "320:5", "320:6", "320:7", "I320:7;32:3", "320:11", "320:13", "320:14", "320:15", "320:16", "320:17", "320:18", "320:19", "320:20", "320:21", "320:22", "I320:22;32:3", "320:26"],
+        "dependencies": {
+          "button": "33:2",
+          "buttonVariant": "Size=Small, Style=Primary, State=Default#32:2"
+        },
+        "properties": {"type": "Type", "copy": "Fixed per variant; no shared text properties"},
+        "content": {
+          "error": {"title": "No se pudo cargar", "message": "Intenta de nuevo en unos momentos.", "action": "Reintentar"},
+          "offline": {"title": "Parece que no hay conexión", "message": "Revisa tu conexión y vuelve a intentarlo.", "action": "Reintentar"}
+        },
+        "tokens": {"errorIcon": "color/text/inverse on color/bg/danger", "offlineIcon": "color/text/secondary on color/bg/subtle"},
+        "dimensions": {"componentSet": {"width": 840, "height": 400}, "variant": {"width": 360, "height": 320}, "action": {"width": 328, "height": 44}, "illustration": {"width": 88, "height": 88}},
+        "accessibility": {"hiddenGuidanceLayerPerVariant": true, "nativeImplementationRequired": true},
+        "validation": {"metadataNodeId": "322:6", "screenshotPageId": "317:2", "visualReview": "No clipping; CTA targets 44 px; Error icon contrast corrected to inverse token", "validationIssues": 0},
+        "privacy": "Show only safe failure/connectivity state; never expose traces, internal codes, credentials, or personal/order/payment data.",
+        "productFollowUp": "Retry is a read-only fetch; never repeat checkout, payment, cancellation, refund, or order mutation. Do not assert recovery until a successful response."
+      }
+    },
+    "screens": {
+      "customerPurchaseEntryFlow": {
+        "pageId": "429:2",
+        "entryScreenId": "459:196",
+        "storeScreenId": "459:197",
+        "optionalAccountScreenId": "687:48",
+        "productDetailScreenId": "459:199",
+        "categoriesScreenId": "486:6",
+        "searchResultsScreenId": "486:7",
+        "lentilDetailScreenId": "488:57",
+        "emptyCartScreenId": "486:9",
+        "extraRiceDetailScreenId": "491:40",
+        "legumesCategoryScreenId": "492:6",
+        "canaryBeanDetailScreenId": "492:2036",
+        "cartWithItemsScreenId": "500:6",
+        "fulfillmentChoiceScreenId": "500:7",
+        "deliveryDetailsScreenId": "500:8",
+        "deliveryReviewScreenId": "500:9",
+        "pickupDetailsScreenId": "505:6",
+        "pickupReviewScreenId": "505:38",
+        "deliveryPaymentScreenId": "518:6",
+        "pickupPaymentScreenId": "518:34",
+        "ordersScreenId": "520:8",
+        "accountScreenId": "529:6",
+        "addressesScreenId": "529:35",
+        "newAddressScreenId": "529:53",
+        "accountMoreScreenId": "534:6",
+        "preferencesScreenId": "534:35",
+        "notificationsScreenId": "534:68",
+        "privacyScreenId": "534:86",
+        "bulkLentilConceptScreenId": "624:6",
+        "deliveryScheduleConceptScreenId": "625:39",
+        "paymentPendingConceptScreenId": "632:34",
+        "orderReceivedConceptScreenId": "632:62",
+        "orderTrackingConceptScreenId": "637:6",
+        "substitutionResponseConceptScreenId": "637:62",
+        "otpVerificationScreenId": "719:148",
+        "customerNameScreenId": "702:23",
+        "documentationPath": "design/system/screens/customer-purchase-entry-flow.md",
+        "compositionScriptPath": "design/system/page65-ui-redesign.js",
+        "archivedPreviousDesignPageId": "475:200",
+        "status": "customer-high-fidelity-visual-pass-in-review",
+        "prototypeLinks": 126,
+        "source": "Initial catalog seed, catalog snapshot, v2 data model, UI direction and 2026-09-24 customer visual review. Product photos are generated concepts; account, order, payment, schedule and address content is fictional design data.",
+        "constraints": "Figma navigation is visual only. Purchase, payment, OTP, address, preferences and other operations require live authorization and server contracts. No approved catalog photography or inventory reading is included.",
+        "validation": {"screenScreenshots": 35, "documentationInCanvas": false, "fontFamilies": ["Inter", "Fraunces"], "prototypeLinksVerified": 126, "screensReachableFromEntry": 35, "visibleArrowLabels": 0, "textOverflow": 0, "linkedTargetsBelow44Pt": 0, "repeatedCardPatternAcrossElementTypes": 0, "viewport": {"width": 393, "height": 852}},
+        "remaining": "Visual approval, authorized catalog photography, live data and transactional contracts, applicable loading/error states, and focus/screen-reader/large-text validation. The 35 compositions are concrete UI references; their fictional data and prototype actions are not production behavior."
+      },
+      "ownerOperationsFlow": {
+        "pageId": "539:6",
+        "accessScreenId": "540:2",
+        "storeSelectionScreenId": "540:15",
+        "dashboardScreenId": "540:35",
+        "orderQueueScreenId": "540:68",
+        "prepDetailScreenId": "545:2",
+        "inventoryScreenId": "545:3",
+        "catalogPricesScreenId": "545:4",
+        "managementScreenId": "550:2",
+        "storeSettingsScreenId": "550:3",
+        "paymentsScreenId": "550:4",
+        "deliveryScreenId": "550:5",
+        "activityScreenId": "550:6",
+        "noStoreScreenId": "555:2",
+        "accessDeniedScreenId": "555:3",
+        "orderQueueLoadingScreenId": "555:4",
+        "orderQueueEmptyScreenId": "555:5",
+        "orderQueueOfflineScreenId": "555:6",
+        "inventoryPartialScreenId": "562:2",
+        "inventoryEmptyScreenId": "562:3",
+        "catalogPartialScreenId": "562:4",
+        "catalogOfflineScreenId": "562:5",
+        "catalogLoadingScreenId": "565:2",
+        "storeSettingsLoadingScreenId": "573:2",
+        "storeSettingsOfflineScreenId": "573:29",
+        "paymentsLoadingScreenId": "578:2",
+        "paymentsOfflineScreenId": "578:33",
+        "deliveryLoadingScreenId": "583:2",
+        "deliveryOfflineScreenId": "583:32",
+        "activityLoadingScreenId": "591:2",
+        "activityOfflineScreenId": "591:32",
+        "prepDetailLoadingScreenId": "594:2",
+        "prepDetailOfflineScreenId": "594:32",
+        "inventoryLoadingScreenId": "601:2",
+        "inventoryOfflineScreenId": "601:22",
+        "dashboardLoadingScreenId": "604:2",
+        "dashboardOfflineScreenId": "604:37",
+        "orderQueuePartialScreenId": "610:2",
+        "orderQueueConsultationErrorScreenId": "610:26",
+        "orderQueueStaleScreenId": "613:2",
+        "orderQueueNoSearchMatchesScreenId": "613:26",
+        "prepResultConceptScreenId": "641:2",
+        "substitutionProposalConceptScreenId": "641:35",
+        "inventoryMovementConceptScreenId": "641:63",
+        "productEditorConceptScreenId": "642:2",
+        "priceHistoryConceptScreenId": "642:35",
+        "storeScheduleConceptScreenId": "645:2",
+        "deliveryZoneConceptScreenId": "645:30",
+        "driverAssignmentConceptScreenId": "645:58",
+        "paymentReviewConceptScreenId": "645:89",
+        "documentationPath": "design/system/screens/owner-operations-flow.md",
+        "rejectedPreviousExplorationPageId": "414:2",
+        "status": "photo-led-visual-direction-in-review",
+        "prototypeLinks": 78,
+        "validation": {"screenScreenshots": 49, "documentationInCanvas": false, "fontFamilies": ["Inter", "Fraunces"], "prototypeLinksVerified": 78, "imageNodes": 43, "linkedTargetsBelow44Pt": 0, "backTargetsExpandedTo44Pt": 12, "prototypeDissolveLinks": 78, "prototypeTransitionSeconds": 0.18, "postChangeScreenshotScreenIds": ["641:2", "641:35", "641:63", "642:2", "642:35", "645:2", "645:30", "645:58", "645:89"], "viewport": {"width": 393, "height": 852}},
+        "constraints": "All store names, counts, order references and operational statuses shown are visual examples only. Active owner/admin store membership must be verified; no live read, login, preparation, payment or inventory mutation is connected.",
+        "remaining": "Visual approval, authenticated store selection, authorized reads and actions across dashboard, orders, preparation, inventory, catalog, store settings, payments, delivery and audit; exact statuses/metrics, live images, loaded/partial/error states for remaining routes, focus/reading order/text scaling and reduced-motion verification in React Native. All 49 base compositions and selective state variants are visual designs only; not ready for React Native handoff."
+      },
+      "homeComposition": {
+        "pageId": "332:2",
+        "screenId": "332:3",
+        "documentationFrameId": "336:201",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 684, "bottomNavigationHeight": 80},
+        "sections": {
+          "topAppBar": {"slotId": "333:2", "instanceId": "333:8", "componentId": "281:2"},
+          "searchInput": {"slotId": "333:4", "instanceId": "333:18", "componentId": "48:164"},
+          "categories": {
+            "slotId": "333:5",
+            "headingRowId": "334:47",
+            "railId": "334:50",
+            "componentId": "177:606",
+            "instances": ["334:51", "334:64", "334:73", "334:82", "334:91"],
+            "labelsAndCounts": ["Arroces · 2", "Azúcares · 2", "Sal y condimentos · 3", "Aceites · 1", "Pastas · 2"]
+          },
+          "products": {
+            "slotId": "333:6",
+            "headingRowId": "335:91",
+            "railId": "335:94",
+            "componentId": "72:93",
+            "instances": ["335:95", "335:173", "335:217"],
+            "sampleProducts": ["Arroz superior · S/ 19.50", "Aceite vegetal · S/ 10.50", "Leche evaporada · S/ 4.50"]
+          },
+          "bottomNavigation": {"slotId": "333:7", "instanceId": "333:31", "componentId": "276:102", "selected": "Inicio"}
+        },
+        "scrolling": {"content": "VERTICAL", "categoryRail": "HORIZONTAL", "productRail": "HORIZONTAL"},
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 36, "mismatches": 0},
+        "instanceAudit": {"instancesIncludingNested": 29, "validationIssues": 0},
+        "dataConstraints": {
+          "catalogSnapshot": "database/seeds/20260918_initial_catalog_snapshot.sql",
+          "promotionBanner": "Omitted because the catalog snapshot does not seed an active promotion.",
+          "availability": "Available is a visual example state only; the catalog seed contains no stock. Production availability must come from inventory."
+        },
+        "privacy": "Generic store context only; no profile, exact address, order, payment, delivery, or internal identifier data.",
+        "accessibility": "Visible navigation labels, accessible component properties, and targets of at least 44 px; product Add is 44 px and navigation destinations are 76 × 56 px.",
+        "validation": {"fullViewportScreenshot": true, "visualReview": "No clipping, overlap, placeholder text, or font-family mismatch found.", "validationIssues": 0}
+      },
+      "categoryPage": {
+        "pageId": "339:201",
+        "screenId": "339:202",
+        "documentationFrameId": "340:251",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "sections": {
+          "topAppBar": {"instanceId": "340:3", "componentId": "281:12", "title": "Arroces"},
+          "searchInput": {"instanceId": "340:16", "componentId": "47:2"},
+          "categories": {"railId": "340:36", "componentSetId": "177:606", "selectedInstanceId": "340:37", "instances": ["340:37", "340:50", "340:63", "340:72", "340:81"]},
+          "products": {"listId": "340:94", "componentSetId": "72:93", "instances": ["340:95", "340:173"], "sampleProducts": ["Arroz superior · S/ 19.50", "Arroz extra · S/ 4.20"]},
+          "bottomNavigation": {"instanceId": "340:226", "componentId": "276:27", "selected": "Categorías"}
+        },
+        "scrolling": {"content": "VERTICAL", "categoryRail": "HORIZONTAL"},
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 29, "mismatches": 0},
+        "dataConstraints": {
+          "catalogSnapshot": "database/seeds/20260918_initial_catalog_snapshot.sql",
+          "promotion": "Omitted because the catalog snapshot does not seed an active promotion.",
+          "availability": "Available is a visual example state only; the catalog seed contains no stock. Production availability must come from inventory."
+        },
+        "privacy": "Browsing only; no customer, exact address, order, payment, delivery, or internal identifier data.",
+        "accessibility": "Visible names/counts/navigation, component accessibility properties, and touch targets of at least 44 px.",
+        "validation": {"fullViewportScreenshot": true, "visualReview": "No visible clipping, overlap, placeholder copy, or font-family mismatch found.", "validationIssues": 0}
+      },
+      "searchResults": {
+        "pageId": "344:29",
+        "suggestionsScreenId": "344:30",
+        "resultsScreenId": "344:31",
+        "filterSortFrameId": "344:32",
+        "documentationFrameId": "346:232",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "sections": {
+          "suggestions": {"searchInputId": "345:16", "assistChipIds": ["345:62", "345:76"], "query": "arro", "suggestedProducts": ["Arroz superior", "Arroz extra"]},
+          "results": {"searchInputId": "345:100", "filterChipId": "345:146", "sortChipId": "345:160", "productCardIds": ["345:175", "345:253"], "query": "arroz", "category": "Arroces", "sort": "Menor precio", "resultCount": 2},
+          "selectionSheets": {"categoryId": "345:307", "sortId": "345:318", "componentId": "283:18"}
+        },
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 40, "mismatches": 0},
+        "dataConstraints": {
+          "catalogSnapshot": "database/seeds/20260918_initial_catalog_snapshot.sql",
+          "availability": "Available is visual only; catalog seed has no stock.",
+          "promotion": "No active promotion was seeded.",
+          "responsive": "Existing Product Card List variant is 680 px wide; mobile screen uses Grid at 320 px."
+        },
+        "privacy": "No personal search history, identity, exact address, order, payment, delivery, or internal identifier data.",
+        "accessibility": "Visible search, count, selected filter/sort labels, accessible component properties, and 44 px minimum controls; modal focus management required in implementation.",
+        "validation": {"compositionScreenshots": 3, "postFixScreenshot": true, "visualReview": "Suggestions, results, and selection sheets checked; selected options made explicit; no visible clipping or overlap.", "validationIssues": 0}
+      },
+      "cartPage": {
+        "pageId": "348:344",
+        "emptyScreenId": "348:345",
+        "blockedSampleScreenId": "348:346",
+        "documentationFrameId": "350:187",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "sections": {
+          "empty": {"emptyStateId": "349:41", "componentId": "304:2", "bottomNavigationId": "349:16"},
+          "blockedSample": {"cartItemId": "349:100", "cartItemComponentId": "116:2", "stockNoticeId": "350:190", "cartSummaryId": "349:198", "cartSummaryComponentId": "122:444", "bottomNavigationId": "349:73"}
+        },
+        "sampleAmounts": {"product": "Arroz superior · Bolsa 5 kg", "quantity": 2, "unitPriceCents": 1950, "subtotalCents": 3900, "delivery": "Por definir", "total": "Pendiente", "checkout": "Blocked"},
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 33, "mismatches": 0},
+        "dataConstraints": {
+          "catalogSnapshot": "database/seeds/20260918_initial_catalog_snapshot.sql",
+          "cart": "No customer cart is seeded; populated screen is illustrative.",
+          "availability": "No stock is seeded; Available Cart Item variant is visual only. Neutral pending-validation state remains a design-system gap.",
+          "deliveryAndTotal": "Delivery not determined and total not payable; checkout remains blocked."
+        },
+        "privacy": "No customer identity, exact address, payment, order, delivery, or internal identifier data.",
+        "accessibility": "Visible amount, quantity, subtotal, blocked reason, and 44 px minimum controls; Empty only after successful zero-item read.",
+        "validation": {"fullViewportScreenshots": 2, "postFixScreenshot": true, "visualReview": "Empty and blocked examples checked; unverified-stock notice visible, total pending, checkout disabled, no clipping or overlap.", "validationIssues": 0}
+      },
+      "scheduleSlotPicker": {
+        "pageId": "351:139",
+        "pendingScreenId": "351:140",
+        "documentationFrameId": "351:144",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 680, "footerHeight": 100},
+        "sections": {"headerId": "351:141", "contentId": "351:142", "footerId": "351:143", "methodCardId": "352:15", "dateCardId": "352:19", "slotsCardId": "352:24"},
+        "state": "Pending availability; no method, date, or slot is assumed; Continue disabled.",
+        "dataConstraints": "No store business-hour or schedule-exception seed; never imply slots are available without server validation.",
+        "dataSources": ["stores.timezone", "store_business_hours", "store_schedule_exceptions", "store_operational_state", "orders.scheduled_for"],
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 15, "mismatches": 0},
+        "validation": {"screenScreenshot": true, "documentationScreenshot": true, "visualReview": "Pending state and context checked; no clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Ready/selected slot state requires a real store availability contract and schedule data."
+      },
+      "coupon": {
+        "pageId": "353:14",
+        "pendingScreenId": "353:15",
+        "documentationFrameId": "353:19",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 680, "footerHeight": 100},
+        "sections": {"headerId": "353:16", "contentId": "353:17", "footerId": "353:18", "inputId": "354:15", "statusCardId": "354:32", "noticeCardId": "354:35", "applyButtonId": "354:38"},
+        "state": "No coupon applied; input and Apply disabled; no discount amount invented.",
+        "dataSources": ["promotions", "promotion_products", "order_promotions"],
+        "backendGap": "create_checkout_order does not accept a coupon, writes discount fields as zero, and does not insert order_promotions.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 11, "mismatches": 0},
+        "validation": {"screenScreenshot": true, "documentationScreenshot": true, "visualReview": "Pending state and context checked; no fictitious code, savings, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Functional coupon validation and applied/error states require server-side checkout promotion support."
+      },
+      "checkoutReview": {
+        "pageId": "355:22",
+        "blockedSampleScreenId": "355:23",
+        "documentationFrameId": "355:27",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 680, "footerHeight": 100},
+        "sections": {"headerId": "355:24", "contentId": "355:25", "footerId": "355:26", "productsCardId": "356:15", "fulfillmentPaymentCardId": "356:22", "totalsCardId": "356:36", "blockedReasonId": "356:81", "confirmButtonId": "356:53"},
+        "sampleAmounts": {"product": "Arroz superior · Bolsa 5 kg", "quantity": 2, "unitPriceCents": 1950, "subtotalCents": 3900, "delivery": "Por definir", "coupon": "No aplicado", "total": "Pendiente", "confirmation": "Blocked"},
+        "dataConstraints": "No customer cart or authoritative stock is seeded; fulfillment, schedule, contact, payment, delivery cost, and total are not validated.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "textNodesChecked": 29, "mismatches": 0},
+        "validation": {"initialScreenshot": true, "targetedFix": "Clipped blocked notice replaced by compact visible text.", "postFixScreenshot": true, "documentationScreenshot": true, "visualReview": "Full blocked sample visible, no overlap or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Ready/confirmed and error-result screens require a real validated end-to-end checkout contract and test data."
+      },
+      "loginOtp": {
+        "pageId": "359:20",
+        "entryScreenId": "359:21",
+        "codeNotSentScreenId": "359:25",
+        "documentationFrameId": "359:29",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 668, "footerHeight": 112},
+        "sections": {"entryHeaderId": "359:22", "entryContentId": "359:23", "entryFooterId": "359:24", "verifyHeaderId": "359:26", "verifyContentId": "359:27", "verifyFooterId": "359:28", "guestButtonId": "360:18", "phoneFieldId": "360:24", "sendCodeButtonId": "360:44", "codeFieldId": "360:62", "resendButtonId": "360:77", "verifyButtonId": "360:81"},
+        "state": "Guest route retained; OTP entry, send, resend, and verify disabled. No code sent or account verified.",
+        "productEvidence": "Anonymous Auth is enabled but public CAPTCHA/abuse protection is pending; owner uses magic link; customer OTP is not documented.",
+        "assumption": "Cellular OTP is only a proposed channel based on required customers.phone; provider and policy are undecided.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "entryTextNodesChecked": 14, "verifyTextNodesChecked": 10, "mismatches": 0},
+        "validation": {"fullViewportScreenshots": 2, "postFixScreenshots": 2, "documentationScreenshot": true, "targetedFix": "Footer height increased to prevent helper text clipping.", "visualReview": "No fake code, countdown, successful verification, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Confirm OTP channel/provider and security policy; implement and validate real send/verify/linking before active states."
+      },
+      "profile": {
+        "pageId": "362:2",
+        "guestScreenId": "363:2",
+        "accountDataTemplateScreenId": "363:6",
+        "documentationFrameId": "363:10",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "sections": {"guestHeaderId": "363:3", "guestContentId": "363:4", "guestNavigationId": "363:5", "accountHeaderId": "363:7", "accountContentId": "363:8", "accountNavigationId": "363:9", "guestIdentityCardId": "364:40", "guestMenuId": "364:48", "accountIdentityCardId": "364:108", "accountMenuId": "364:116"},
+        "states": ["Guest without personal data", "Account structure with personal data not yet loaded"],
+        "dataSources": ["profiles", "customers", "customer_addresses", "customer_preferences", "orders", "account_deletion_requests"],
+        "dataConstraints": "Global profiles and store-scoped customers must not be silently merged; no saved payment-instrument model exists.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "guestTextNodesChecked": 17, "accountTextNodesChecked": 17, "mismatches": 0},
+        "validation": {"fullViewportScreenshots": 2, "documentationScreenshot": true, "visualReview": "Both states and context checked; no personal sample data, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Loaded/editable account state requires a verified account session and source-precedence/account-linking rules."
+      },
+      "addressManagement": {
+        "pageId": "366:96",
+        "confirmedEmptyScreenId": "366:97",
+        "newAddressScreenId": "366:98",
+        "documentationFrameId": "366:99",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "states": ["Confirmed empty after authorized successful read", "Blank new-address form with disabled Save"],
+        "dataSource": "customer_addresses",
+        "dataConstraints": "Store/customer ownership; nonblank label, address_line, district; at most one default; coordinate pair or neither; coverage is not assumed on save; no customer DELETE policy.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "emptyTextNodesChecked": 11, "formTextNodesChecked": 18, "mismatches": 0},
+        "validation": {"fullViewportScreenshots": 2, "postFixScreenshots": 1, "documentationScreenshot": true, "targetedFix": "Empty card overflow corrected for 360 px viewport.", "visualReview": "No fake address or coverage result, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Authorized list/add/edit/default flows and error/loading states require implementation and end-to-end verification; delete is not currently authorized."
+      },
+      "paymentMethods": {
+        "pageId": "368:36",
+        "informationScreenId": "368:37",
+        "documentationFrameId": "368:38",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "scope": "Informational Account page, not saved-instrument management or checkout selection.",
+        "dataSources": ["orders.payment_method", "store_settings", "payment_transactions", "payment_events"],
+        "dataConstraints": "Store/mode-gated Yape, Plin and pickup cash; card hidden pending provider; no customer saved-instrument table or vault; method selection is not payment verification.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 14, "documentationTextNodesChecked": 11, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "postFixScreenshot": true, "documentationScreenshot": true, "targetedFix": "Saved-method wording clarified as unsupported feature rather than an empty customer list.", "visualReview": "No personal payment data, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Live selectable methods belong to checkout; saved-instrument management requires a provider and new secure data contract."
+      },
+      "preferences": {
+        "pageId": "372:36",
+        "dataPendingScreenId": "372:37",
+        "documentationFrameId": "372:38",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "scope": "Account preferences data-pending template; no live values or editable controls.",
+        "dataSource": "customer_preferences",
+        "dataConstraints": "Store/customer-scoped authorization; schema defaults are not saved customer choices; marketing consent is separate from promotion notices; individual orders may override substitution_default.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 19, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "No fake customer values, clipping, overlap, or leftover placeholders.", "validationIssues": 0},
+        "remaining": "Authorized read/write flows, notification channel, consent evidence and legal copy, plus loaded/editable/skeleton/error/offline states remain to be defined and verified."
+      },
+      "notifications": {
+        "pageId": "377:2",
+        "unavailableScreenId": "377:3",
+        "documentationFrameId": "377:53",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "scope": "Informational Account page; no inbox, unread badge, or delivery claim.",
+        "dataSource": "No notification inbox or delivery record exists; customer_preferences has only preference flags.",
+        "dataConstraints": "Do not infer zero notifications from an absent data source or failed read; order progress stays in authorized order detail.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 14, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "No clipping, overlap, fake customer messages, unread count, or shimmer placeholders.", "validationIssues": 0},
+        "remaining": "Define notification records, delivery channels, authorization, read/unread behavior, and loading/empty/error states before an active inbox."
+      },
+      "accountDeletion": {
+        "pageId": "379:2",
+        "requestUnavailableScreenId": "379:3",
+        "documentationFrameId": "379:57",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 64, "contentHeight": 700, "bottomNavigationHeight": 80},
+        "scope": "Informational Account deletion-request page; action disabled and request status not loaded.",
+        "dataSource": "account_deletion_requests",
+        "dataConstraints": "Own-row SELECT/INSERT for authenticated user only; no user UPDATE. requested is not completed. Table does not implement identity verification, processing, retention, or auth.users deletion.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 15, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "postFixScreenshot": true, "documentationScreenshot": true, "targetedFix": "Danger notice background changed to red/50 for readable warning heading.", "visualReview": "No clipping, overlap, fake request state, active destructive action, or shimmer placeholders.", "validationIssues": 0},
+        "remaining": "Define verified request submission, processing, duplicate handling, retention language, and all loaded/status/error states before enabling the action."
+      },
+      "ownerDashboard": {
+        "pageId": "383:2",
+        "dataPendingScreenId": "383:3",
+        "documentationFrameId": "383:29",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin dashboard visual proposal with all store context and signals pending; no real metrics or actions.",
+        "dataSources": ["store_memberships", "stores", "store_operational_state", "orders", "payment_transactions", "inventory_lots"],
+        "dataConstraints": "Active owner/admin role gate beyond is_store_member, which also covers driver; store-scoped aggregates need defined statuses, timeframe, timezone, freshness and partial-read rules. payment_events is server-only.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 18, "documentationTextNodesChecked": 11, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "No clipping, overlap, fake metrics, active controls, or shimmer placeholders.", "validationIssues": 0},
+        "highFidelityExample": {"pageId": "414:2", "screenId": "414:3", "documentationFrameId": "419:2", "status": "rejected-as-final-ui-reference", "sampleData": "simulated and visibly labelled", "prototypeToOrderQueue": {"tabId": "416:54", "destinationId": "421:2"}, "validation": {"screenScreenshot": true, "documentationScreenshot": true, "font": "Inter", "screenTextNodesChecked": 30, "fontMismatches": 0}},
+        "remaining": "Define admin shell/navigation, authorized store selection, metric contracts, safe aggregation, loaded/partial/error states and operational actions."
+      },
+      "ownerOrderQueue": {
+        "pageId": "387:2",
+        "dataPendingScreenId": "387:3",
+        "documentationFrameId": "387:54",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin store-scoped order queue with Activos/Historial visual filters, status groups and no loaded orders or counts.",
+        "dataSources": ["orders", "order_status_history", "store_memberships"],
+        "dataConstraints": "Exact order status retained; payment_status separate; active owner/admin gate beyond is_store_member; ordering needs preparation_not_before, scheduled_for, created_at and store timezone; transitions must be authorized and transactional.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 18, "documentationTextNodesChecked": 11, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "chipInstances": 2, "visualReview": "No clipping, overlap, fake orders or counts, active transitions, or shimmer placeholders.", "validationIssues": 0},
+        "highFidelityExample": {"pageId": "414:2", "screenId": "421:2", "documentationFrameId": "423:4", "status": "rejected-as-final-ui-reference", "sampleData": "simulated and visibly labelled", "prototypeToDashboard": {"tabId": "421:54", "destinationId": "414:3"}, "validation": {"screenScreenshot": true, "documentationScreenshot": true, "font": "Inter", "screenTextNodesChecked": 28, "fontMismatches": 0}},
+        "remaining": "Define authorized loaded/empty/partial/error states, pagination, priority ordering, refresh, exact row data and transition flows."
+      },
+      "ownerPrepDetail": {
+        "pageId": "389:2",
+        "dataPendingScreenId": "389:3",
+        "documentationFrameId": "389:31",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin store-scoped preparation detail visual template; order context, items, substitutions, payment and disabled continuation, without loaded records or active changes.",
+        "dataSources": ["orders", "order_items", "inventory_reservations", "order_substitutions", "order_status_history", "store_memberships"],
+        "dataConstraints": "Require active owner/admin gate, exact fulfillment/status/payment state, request modes and base units, full-item reservation validation and authorized idempotent transactional transitions. No direct client updates or pickup code/payment/staff IDs.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 18, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "postFixScreenshot": true, "documentationScreenshot": true, "disabledButtonInstance": 1, "visualReview": "No clipping, overlap, fake orders, active transitions, or shimmer placeholders; cards have 15 px bottom padding after content.", "validationIssues": 0},
+        "remaining": "Define authorized loading and action flows, prepared-quantity editing, substitution decisions, adjustment/payment handling, and loaded/error states."
+      },
+      "ownerInventory": {
+        "pageId": "393:2",
+        "dataPendingScreenId": "393:3",
+        "documentationFrameId": "393:31",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin inventory overview with store context, lots/on-hand, expiry, movements and suppliers, all data-pending and read-only.",
+        "dataSources": ["inventory_lots", "inventory_lot_packages", "inventory_movements", "inventory_reservations", "inventory_reservation_allocations", "suppliers", "store_memberships"],
+        "dataConstraints": "Active owner/admin gate beyond is_store_member; distinguish loose base quantities from sealed units, on-hand from sellable stock, nullable expiry from warning, and movements from direct edits. No client inventory mutation.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 10, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "No clipping, overlap, fake balances or expiry alerts, active mutations, or shimmer placeholders; card bottom spaces at least 15 px.", "validationIssues": 0},
+        "remaining": "Define authorized data loading, sellable-stock calculations, store-local expiry thresholds, refresh/pagination, detailed lot and movement views, supplier management, and server-side receipt/adjustment flows."
+      },
+      "ownerCatalogPrices": {
+        "pageId": "396:2",
+        "dataPendingScreenId": "396:3",
+        "documentationFrameId": "396:31",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin store-scoped catalog and prices overview: categories/products, presentations, current prices and price history, all data-pending and read-only.",
+        "dataSources": ["categories", "products", "product_presentations", "product_images", "product_price_history", "store_memberships"],
+        "dataConstraints": "Owner/admin gate and store scope; independent active flags; current price from presentation price_cents per base_quantity/price_mode; history trigger distinct from current price; preserve order price snapshots; no fake images or live edits.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 10, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "postFixScreenshot": true, "documentationScreenshot": true, "targetedFix": "Presentation copy clarified to distinguish publication state from stock availability.", "visualReview": "No clipping, overlap, fake catalog records or prices, active mutations, or shimmer placeholders; cards have at least 15 px bottom space.", "validationIssues": 0},
+        "remaining": "Define authorized loaded list/detail/search, product and presentation editing, publication effects, price-change validation and concurrency, detailed history, real images, and error states."
+      },
+      "ownerStoreSettings": {
+        "pageId": "399:2", "dataPendingScreenId": "399:3", "documentationFrameId": "399:31",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin store identity, operation, weekly hours, exceptions and delivery zones; data-pending read-only overview.",
+        "dataSources": ["stores", "store_settings", "store_operational_state", "store_business_hours", "store_schedule_exceptions", "delivery_zones"],
+        "dataConstraints": "Active owner/admin gate; combine store-local hours, exceptions, operational state, fulfillment flags and zone rules before showing availability; no active writes.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "Five cards with at least 15 px bottom text space; no clipping, fake settings, or active writes.", "validationIssues": 0},
+        "remaining": "Define authorized loaded and form states, schedule and zone validation, save conflicts, slot impact and public-facing availability."
+      },
+      "ownerPayments": {
+        "pageId": "399:41", "dataPendingScreenId": "399:42", "documentationFrameId": "399:70",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin payments and reconciliation overview with no amounts or financial actions.",
+        "dataSources": ["orders", "payment_transactions", "payment_events"],
+        "dataConstraints": "Order and payment statuses distinct; pending transactions are not succeeded; payment_events server-only; no external bank settlement/reconciliation source or final contract; active owner/admin gate.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "Five cards with 15 px bottom text space; no clipping, fake totals, conciliations, or active payment actions.", "validationIssues": 0},
+        "remaining": "Define settlement source, matching/reversal rules, authorized idempotent actions, discrepancy handling, evidence access and loaded/error states."
+      },
+      "ownerDeliveryAssignments": {
+        "pageId": "399:80", "dataPendingScreenId": "399:81", "documentationFrameId": "399:109",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin ready delivery orders, assignments, tracking and evidence; data-pending with no live assignment action.",
+        "dataSources": ["orders", "delivery_assignments", "delivery_events", "store_memberships"],
+        "dataConstraints": "Authorized idempotent assignment only for ready_for_delivery, eligible active driver, distinct order and assignment statuses; never expose confirmation code/hash or sensitive evidence.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "Five cards with 15 px bottom text space; no clipping, fake assignments, codes, or active transitions.", "validationIssues": 0},
+        "remaining": "Define eligible-driver selection, authorized action flow, event freshness, failure handling, evidence review and loaded/error states."
+      },
+      "ownerAudit": {
+        "pageId": "399:119", "dataPendingScreenId": "399:120", "documentationFrameId": "399:148",
+        "viewport": {"width": 360, "height": 844, "headerHeight": 80, "contentHeight": 764},
+        "scope": "Owner/Admin operational trace overview across inventory, catalog, store, orders, delivery and payments; incomplete coverage acknowledged.",
+        "dataSources": ["inventory_movements", "inventory_lots", "product_price_history", "store_operational_state", "order_status_history", "delivery_events", "payment_transactions", "payment_events"],
+        "dataConstraints": "No unified exhaustive audit table; do not infer absent store changes; payment_events server-only; active owner/admin gate and data minimization.",
+        "fontAudit": {"expected": ["Inter"], "actual": ["Inter"], "screenTextNodesChecked": 20, "documentationTextNodesChecked": 9, "mismatches": 0},
+        "validation": {"fullViewportScreenshot": true, "documentationScreenshot": true, "visualReview": "Five cards with 15 px bottom text space; no clipping, invented events, raw payloads, or export action.", "validationIssues": 0},
+        "remaining": "Define source coverage, retention, server-side payment event summaries, authorization, pagination, filtering and export."
+      }
+    }
+  },
+  "pendingValidations": [
+    "High-fidelity UI/UX, screen states, navigation, motion and accessibility must be reviewed and approved before phase8 handoff; see design/system/ui-ux-completion-plan.md.",
+    "Schedule & Slot Picker ready/selected state requires a real store availability contract and configured schedule; pending state only is validated.",
+    "Coupon applied/error states require server-side coupon validation and transactional discount support in checkout; pending state only is validated.",
+    "Checkout Review ready/confirmed and error-result states require validated cart, stock, fulfillment, schedule, payment, and final total; blocked sample only is validated.",
+    "Login OTP active states require an agreed channel/provider, send/verify and account-linking contract, abuse controls, and public guest-auth protection; proposal states only are validated.",
+    "Profile loaded/editable account state requires a verified session and explicit profiles-versus-customers source and linking rules; guest and data-template states only are validated.",
+    "Address management live list/add/edit/default states require verified ownership and transactional default switching; confirmed-empty and blank-form examples only are validated.",
+    "Saved payment-instrument management is unsupported by the current model/provider contract; only the informational Account page is validated.",
+    "Preferences loaded/editable states require authorized customer read/write, notification channel and marketing-consent evidence; only the data-pending template is validated.",
+    "Notification inbox, unread counts, and delivery states require a new data and authorization contract; only the unavailable informational screen is validated.",
+    "Account deletion requires a verified request and processing flow, duplicate handling, retention terms, and actual auth-user/data cleanup; only the unavailable informational screen is validated.",
+    "Owner/Admin Dashboard requires active owner/admin role verification, store selection, metric definitions and safe aggregates; only the data-pending visual template is validated.",
+    "Owner/Admin order queue needs active owner/admin gate, store-scoped reads, ordering/pagination and authorized transitions; only the data-pending visual template is validated.",
+    "Owner/Admin prep detail needs owner/admin authorization, store-scoped order/item/reservation reads, complete quantity and substitution handling, payment adjustment, and idempotent server transitions; only the data-pending visual template is validated.",
+    "Owner/Admin inventory needs an owner/admin gate, store-scoped reads, sellable-stock and expiry definitions, lot/movement/supplier details, and authorized server mutation flows; only the data-pending overview is validated.",
+    "Owner/Admin catalog and prices needs authorized store-scoped loading and editing, current-price and history semantics, publication validation, images and concurrency/error states; only the data-pending overview is validated.",
+    "Owner/Admin store settings needs authorized forms, store-local schedule and zone validation, slot impact and public availability; only the data-pending overview is validated.",
+    "Owner/Admin payments needs settlement data, matching/reversal rules, idempotent actions and protected evidence; only the data-pending overview is validated.",
+    "Owner/Admin delivery assignments needs eligible-driver selection, authorized assignment/completion, protected confirmation and evidence, and failure states; only the data-pending overview is validated.",
+    "Owner/Admin audit needs source coverage, retention, server-side payment event summaries and protected filtering/export; only the data-pending overview is validated."
+  ],
+  "completedSteps": [
+    "phase0",
+    "phase1",
+    "phase2.button.created",
+    "phase2.button.approved",
+    "phase2.icon-button.created",
+    "phase2.icon-button.approved",
+    "phase2.search-input.created",
+    "phase2.search-input.approved",
+    "phase2.chip-badge.created",
+    "phase2.chip-badge.approved",
+    "phase2.product-card.created",
+    "phase2.product-card.approved",
+    "phase2.quantity-stepper.created",
+    "phase2.quantity-stepper.approved",
+    "phase2.ui-direction.created",
+    "phase2.ui-direction.validated",
+    "phase2.product-card.direction-audited",
+    "phase2.cart-item.created",
+    "phase2.cart-item.validated",
+    "phase2.cart-item.approved",
+    "phase2.cart-summary.created",
+    "phase2.cart-summary.validated",
+    "phase2.cart-summary.approved",
+    "phase2.delivery-method-selector.created",
+    "phase2.delivery-method-selector.validated",
+    "phase2.delivery-method-selector.approved",
+    "phase2.address-selector.created",
+    "phase2.address-selector.validated",
+    "phase2.address-selector.approved",
+    "phase2.delivery-zone-summary.created",
+    "phase2.delivery-zone-summary.validated",
+    "phase2.delivery-zone-summary.approved",
+    "phase2.payment-method-selector.created",
+    "phase2.payment-method-selector.validated",
+    "phase2.payment-method-selector.approved",
+    "phase2.payment-evidence.created",
+    "phase2.payment-evidence.validated",
+    "phase2.request-mode-selector.created",
+    "phase2.request-mode-selector.validated",
+    "phase2.substitution-card.created",
+    "phase2.substitution-card.validated",
+    "phase2.promotion-banner.created",
+    "phase2.promotion-banner.validated",
+    "phase2.order-status-timeline.created",
+    "phase2.order-status-timeline.validated",
+    "phase2.category-card.created",
+    "phase2.category-card.validated",
+    "phase2.product-detail-header.created",
+    "phase2.product-detail-header.validated",
+    "phase2.order-summary-card.created",
+    "phase2.order-summary-card.validated",
+    "phase2.order-adjustment-card.created",
+    "phase2.order-adjustment-card.validated",
+    "phase2.order-item-result-card.created",
+    "phase2.order-item-result-card.validated",
+    "phase2.fulfillment-details-card.created",
+    "phase2.fulfillment-details-card.validated",
+    "phase2.payment-status-card.created",
+    "phase2.payment-status-card.validated",
+    "phase2.delivery-confirmation-card.created",
+    "phase2.delivery-confirmation-card.validated",
+    "phase2.pickup-confirmation-card.created",
+    "phase2.pickup-confirmation-card.validated",
+    "phase2.pickup-confirmation-card.context-documented",
+    "phase2.order-cancelled-card.created",
+    "phase2.order-cancelled-card.validated",
+    "phase2.order-totals-card.created",
+    "phase2.order-totals-card.validated",
+    "phase2.order-actions.created",
+    "phase2.order-actions.validated",
+    "phase2.rating-review-card.created",
+    "phase2.rating-review-card.validated",
+    "phase2.bottom-navigation.created",
+    "phase2.bottom-navigation.validated",
+    "phase2.top-app-bar.created",
+    "phase2.top-app-bar.validated",
+    "phase2.bottom-sheet.created",
+    "phase2.bottom-sheet.validated",
+    "phase2.dialog.created",
+    "phase2.dialog.validated",
+    "phase2.toast-snackbar.created",
+    "phase2.toast-snackbar.validated",
+    "phase2.skeleton-loading.created",
+    "phase2.skeleton-loading.validated",
+    "phase2.empty-state.created",
+    "phase2.empty-state.validated",
+    "phase2.error-offline.page-created",
+    "phase2.error-offline.documentation-created",
+    "phase2.error-offline.variants-created",
+    "phase2.error-offline.component-set-created",
+    "phase2.error-offline.visual-adjusted",
+    "phase2.error-offline.metadata-validated",
+    "phase2.error-offline.screenshot-validated",
+    "phase2.error-offline.validated",
+    "phase2.app-shell-components.completed",
+    "phase4.home-composition.created",
+    "phase4.home-composition.context-documented",
+    "phase4.home-composition.validated",
+    "phase4.category-page.created",
+    "phase4.category-page.context-documented",
+    "phase4.category-page.validated",
+    "phase4.search-results.created",
+    "phase4.search-results.context-documented",
+    "phase4.search-results.validated",
+    "phase4.home-catalog.completed",
+    "phase5.cart-page.created",
+    "phase5.cart-page.context-documented",
+    "phase5.cart-page.validated",
+    "phase5.schedule-slot-picker.pending-state-created",
+    "phase5.schedule-slot-picker.context-documented",
+    "phase5.schedule-slot-picker.pending-state-validated",
+    "phase5.coupon.pending-state-created",
+    "phase5.coupon.context-documented",
+    "phase5.coupon.pending-state-validated",
+    "phase5.checkout-review.blocked-sample-created",
+    "phase5.checkout-review.context-documented",
+    "phase5.checkout-review.blocked-sample-validated",
+    "phase6.login-otp.proposed-states-created",
+    "phase6.login-otp.context-documented",
+    "phase6.login-otp.proposed-states-validated",
+    "phase6.profile.guest-and-template-created",
+    "phase6.profile.context-documented",
+    "phase6.profile.guest-and-template-validated",
+    "phase6.address-management.empty-and-form-created",
+    "phase6.address-management.context-documented",
+    "phase6.address-management.empty-and-form-validated",
+    "phase6.payment-methods.information-created",
+    "phase6.payment-methods.context-documented",
+    "phase6.payment-methods.information-validated",
+    "phase6.preferences.data-pending-created",
+    "phase6.preferences.context-documented",
+    "phase6.preferences.data-pending-validated",
+    "phase6.notifications.unavailable-created",
+    "phase6.notifications.context-documented",
+    "phase6.notifications.unavailable-validated",
+    "phase6.account-deletion.request-unavailable-created",
+    "phase6.account-deletion.context-documented",
+    "phase6.account-deletion.request-unavailable-validated",
+    "phase7.owner-dashboard.data-pending-created",
+    "phase7.owner-dashboard.context-documented",
+    "phase7.owner-dashboard.data-pending-validated",
+    "phase7.owner-order-queue.data-pending-created",
+    "phase7.owner-order-queue.context-documented",
+    "phase7.owner-order-queue.data-pending-validated",
+    "phase7.owner-prep-detail.data-pending-created",
+    "phase7.owner-prep-detail.context-documented",
+    "phase7.owner-prep-detail.data-pending-validated",
+    "phase7.owner-inventory.data-pending-created",
+    "phase7.owner-inventory.context-documented",
+    "phase7.owner-inventory.data-pending-validated",
+    "phase7.owner-catalog-prices.data-pending-created",
+    "phase7.owner-catalog-prices.context-documented",
+    "phase7.owner-catalog-prices.data-pending-validated",
+    "phase7.owner-store-settings.data-pending-created",
+    "phase7.owner-store-settings.context-documented",
+    "phase7.owner-store-settings.data-pending-validated",
+    "phase7.owner-payments.data-pending-created",
+    "phase7.owner-payments.context-documented",
+    "phase7.owner-payments.data-pending-validated",
+    "phase7.owner-delivery-assignments.data-pending-created",
+    "phase7.owner-delivery-assignments.context-documented",
+    "phase7.owner-delivery-assignments.data-pending-validated",
+    "phase7.owner-audit.data-pending-created",
+    "phase7.owner-audit.context-documented",
+    "phase7.owner-audit.data-pending-validated",
+    "phase7.5.owner-shared-flow-page-created",
+    "phase7.5.owner-dashboard.example-in-review",
+    "phase7.5.owner-order-queue.example-in-review",
+    "phase7.5.owner-dashboard-queue.prototype-linked",
+    "phase7.5.owner-explorations.rejected-as-final-ui-reference",
+    "phase7.5.customer-purchase-flow.initial-design-in-review",
+    "phase7.5.owner-operations-flow.seven-screen-design-in-review",
+    "phase7.5.owner-management-flow.twelve-screen-design-in-review",
+    "phase7.5.owner-access-and-queue-states.seventeen-screen-design-in-review",
+    "phase7.5.owner-inventory-catalog-states.twenty-two-screen-design-in-review",
+    "phase7.5.owner-prototype-touch-targets-and-transitions-reviewed",
+    "phase7.5.owner-store-settings-loading-offline.twenty-four-screen-design-in-review",
+    "phase7.5.owner-payments-loading-offline.twenty-six-screen-design-in-review",
+    "phase7.5.owner-delivery-loading-offline.twenty-eight-screen-design-in-review",
+    "phase7.5.owner-activity-loading-offline.thirty-screen-design-in-review",
+    "phase7.5.owner-prep-loading-offline.thirty-two-screen-design-in-review",
+    "phase7.5.owner-inventory-loading-offline.thirty-four-screen-design-in-review",
+    "phase7.5.owner-dashboard-loading-offline.thirty-six-screen-design-in-review",
+    "phase7.5.owner-order-queue-partial-error.thirty-eight-screen-design-in-review",
+    "phase7.5.owner-order-queue-stale-no-matches.forty-screen-design-in-review",
+    "phase7.5.customer-bulk-and-schedule-concepts.twenty-nine-screen-design-in-review",
+    "phase7.5.customer-payment-and-order-concepts.thirty-one-screen-design-in-review",
+    "phase7.5.customer-tracking-and-substitution-concepts.thirty-three-screen-design-in-review",
+    "phase7.5.owner-operational-compositions.forty-nine-screen-design-in-review"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Cogana",
+    "slug": "cogana",
+    "version": "0.1.0",
+    "scheme": "cogana",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FCF9F1",
+    "plugins": [
+      "./plugins/with-android-splash.cjs",
+      "expo-router",
+      "./plugins/with-android-security.cjs",
+      "expo-secure-store",
+      "expo-font",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FCF9F1"
+        }
+      ],
+      "expo-image"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "allowBackup": false,
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ],
+      "predictiveBackGestureEnabled": true,
+      "package": "com.yhonq.cogana"
+    }
+  }
+}

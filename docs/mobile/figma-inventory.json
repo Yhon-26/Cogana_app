@@ -1,0 +1,521 @@
+{
+  "verifiedAt": "2026-09-24",
+  "fileKey": "PMCmmZNLY9A8kqcG7IVsHA",
+  "customer": {
+    "pageId": "429:2",
+    "count": 35,
+    "screens": [
+      {
+        "id": "459:196",
+        "name": "01 · Bienvenida · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "459:197",
+        "name": "02 · Tienda · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "687:48",
+        "name": "03 · Cuenta · iPhone 16",
+        "width": 393,
+        "height": 852,
+        "type": "COMPONENT"
+      },
+      {
+        "id": "459:199",
+        "name": "04 · Arroz superior · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "486:6",
+        "name": "05 · Categorías · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "486:7",
+        "name": "06 · Buscar arroz · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "486:9",
+        "name": "08 · Carrito vacío · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "488:57",
+        "name": "07 · Lenteja · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "491:40",
+        "name": "09 · Arroz extra · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "492:6",
+        "name": "10 · Menestras y granos · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "492:2036",
+        "name": "11 · Frijol canario · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "500:6",
+        "name": "12 · Carrito · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "500:7",
+        "name": "13 · Entrega o recojo · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "500:8",
+        "name": "14 · Datos de entrega · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "500:9",
+        "name": "15 · Revisar pedido · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "505:6",
+        "name": "16 · Datos de recojo · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "505:38",
+        "name": "17 · Revisar recojo · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "518:6",
+        "name": "18 · Pago para entrega · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "518:34",
+        "name": "19 · Pago para recojo · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "520:8",
+        "name": "20 · Mis pedidos · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "529:6",
+        "name": "21 · Cuenta invitada · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "529:35",
+        "name": "22 · Mis direcciones · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "529:53",
+        "name": "23 · Nueva dirección · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "534:6",
+        "name": "24 · Más de tu cuenta · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "534:35",
+        "name": "25 · Preferencias · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "534:68",
+        "name": "26 · Notificaciones · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "534:86",
+        "name": "27 · Privacidad y cuenta · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "624:6",
+        "name": "28 · Lenteja a granel · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "625:39",
+        "name": "29 · Horario de entrega · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "632:34",
+        "name": "30 · Pago pendiente · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "632:62",
+        "name": "31 · Pedido recibido · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "637:6",
+        "name": "32 · Detalle y seguimiento · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "637:62",
+        "name": "33 · Responder sustitución · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "719:148",
+        "name": "34 · Verificación de código · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "702:23",
+        "name": "35 · Tu nombre · iPhone 16",
+        "width": 393,
+        "height": 852
+      }
+    ]
+  },
+  "operations": {
+    "pageId": "539:6",
+    "count": 49,
+    "screens": [
+      {
+        "id": "540:2",
+        "name": "01 · Acceso de equipo · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "540:15",
+        "name": "02 · Elige tu tienda · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "540:35",
+        "name": "03 · Panel de tienda · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "540:68",
+        "name": "04 · Cola de pedidos · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "545:2",
+        "name": "05 · Detalle y preparación · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "545:3",
+        "name": "06 · Inventario · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "545:4",
+        "name": "07 · Catálogo y precios · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "550:2",
+        "name": "08 · Gestión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "550:3",
+        "name": "09 · Tu tienda · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "550:4",
+        "name": "10 · Pagos · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "550:5",
+        "name": "11 · Reparto · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "550:6",
+        "name": "12 · Actividad · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "555:2",
+        "name": "13 · Sin tienda seleccionada · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "555:3",
+        "name": "14 · Acceso restringido · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "555:4",
+        "name": "15 · Pedidos cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "555:5",
+        "name": "16 · Sin pedidos activos · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "555:6",
+        "name": "17 · Pedidos sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "562:2",
+        "name": "18 · Inventario parcial · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "562:3",
+        "name": "19 · Inventario vacío · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "562:4",
+        "name": "20 · Catálogo parcial · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "562:5",
+        "name": "21 · Catálogo sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "565:2",
+        "name": "22 · Catálogo cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "573:2",
+        "name": "23 · Tienda cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "573:29",
+        "name": "24 · Tienda sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "578:2",
+        "name": "25 · Pagos cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "578:33",
+        "name": "26 · Pagos sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "583:2",
+        "name": "27 · Reparto cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "583:32",
+        "name": "28 · Reparto sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "591:2",
+        "name": "29 · Actividad cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "591:32",
+        "name": "30 · Actividad sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "594:2",
+        "name": "31 · Preparación cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "594:32",
+        "name": "32 · Preparación sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "601:2",
+        "name": "33 · Inventario cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "601:22",
+        "name": "34 · Inventario sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "604:2",
+        "name": "35 · Panel cargando · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "604:37",
+        "name": "36 · Panel sin conexión · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "610:2",
+        "name": "37 · Pedidos lectura parcial · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "610:26",
+        "name": "38 · Pedidos error de consulta · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "613:2",
+        "name": "39 · Pedidos datos no vigentes · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "613:26",
+        "name": "40 · Pedidos sin coincidencias · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "641:2",
+        "name": "41 · Resultado de preparación · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "641:35",
+        "name": "42 · Proponer sustitución · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "641:63",
+        "name": "43 · Movimiento de inventario · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "642:2",
+        "name": "44 · Producto y presentación · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "642:35",
+        "name": "45 · Precio e historial · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "645:2",
+        "name": "46 · Horarios y excepciones · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "645:30",
+        "name": "47 · Zonas y tarifas · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "645:58",
+        "name": "48 · Asignar repartidor · iPhone 16",
+        "width": 393,
+        "height": 852
+      },
+      {
+        "id": "645:89",
+        "name": "49 · Revisar pago o ajuste · iPhone 16",
+        "width": 393,
+        "height": 852
+      }
+    ]
+  }
+}
